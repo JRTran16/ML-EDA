@@ -86,13 +86,6 @@ age_app_popularity = date.groupby(['Age_Group', 'Primary_App']).size().reset_ind
 sns.scatterplot(data=age_app_popularity, x='Age_Group', y='Primary_App', size='User_Count', sizes=(50, 500))
 ```
 
-### 3. Metro vs Small Town Usage
-```python
-date['City_Type'] = date['Location'].apply(lambda x: 'Metro' if x in ['Delhi', 'Mumbai', 'Bangalore', 'Chennai'] else 'Small Town')
-
-sns.barplot(data=date, x='City_Type', y='Daily_Usage_Time')
-```
-
 ---
 
 ## Key Findings
