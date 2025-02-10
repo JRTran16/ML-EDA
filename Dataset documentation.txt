@@ -1,0 +1,18 @@
+If you were a new data scientist joining this project, what would you need to
+understand this dataset?
+
+I would need a document describing the data sets we are working on, descriptions of each columns, the context of the dataset, identification of the key variables and finally the quality of the data set (missing values, duplicates, outliers and inconsistencies in categorical values)
+
+• How do you write effective column descriptions?
+
+To write an effective column description you need to :
+- Be Clear and concise
+- Include data type info
+- Explain Units or categories
+
+• What’s the best way to track changes in a dataset over time?
+
+You can use multiple methods to track changes in a dataset over time, first method involves keeping a README file to track changes like new data entries, cleanings or column changes.
+You could also add timestamps columns in your data when entries are created or modified.
+Use Git to track changes in datasets and scripts. For large files, tools like Git LFS help manage storage.
+Tools like DVC (Data Version Control) or Delta Lake allow you to version datasets, track changes and revert when needed.

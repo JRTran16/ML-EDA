@@ -1,0 +1,17 @@
+- Are there any duplicate rows? If yes, why might duplicates exist in this dataset?
+
+They are no duplicate rows in the dataset.
+
+• Are there inconsistencies in categorical values (e.g., spelling variations, case
+sensitivity)?
+
+The values are consistent.
+
+
+• What should we do if a column has too many missing values?
+
+If a columns has missing values above or equal to 50%, it is recommended to drop the column. However if its less than 50%, you can either fill it with "None" if you are dealing with categorical values but if we are working with numerical values, you can fill it with the "median" value or the "mode".
+
+• Are there outliers in numerical columns? If so, should we remove or adjust them?
+
+No outliers were detected in the numerical columns (User_ID, Age, and Satisfaction).
