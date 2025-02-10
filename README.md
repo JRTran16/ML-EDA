@@ -115,3 +115,6 @@ sns.barplot(data=date, x='City_Type', y='Daily_Usage_Time')
 
 ## Contributing
 Feel free to fork the repository, make changes, and submit a pull request! We welcome contributions to improve the analysis or expand the dataset.
+
+
+** Written by** : JOHN RAY TRAN
