@@ -1,0 +1,16 @@
+Final Challenge
+
+1. If a dating app wanted to expand into rural India, which insights from this dataset
+would be most valuable?
+
+From this dataset, the insights that are going to be valuable are the Age and Gender trends, younger users (18-22) are more active so they can target people of this group in rural areas.
+Another insights would be which apps are more popular and what features people prefer.
+
+2. If you were designing a new dating app based on this data, what two features would
+you add?
+
+If I had to create a new dating app, I would add security features such as 2step verification.
+
+3. What were the biggest data cleaning challenges in this dataset?
+
+The biggest cleaning challenge came from the 'Daily_Usage_Time', we had to convert them into numerical values, since I was using different jupyter notebooks, I had to do it everytime.
