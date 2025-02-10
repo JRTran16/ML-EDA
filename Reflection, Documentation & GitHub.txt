@@ -1,0 +1,16 @@
+Reflection, Documentation & GitHub best practices
+
+Questions for Students
+• What were the most surprising insights from this dataset?
+
+From this dataset, the lack of data collected from rural areas makes difficult to understand the overall situation of GenZ dating in India.
+Another concern would be the limited number of categories in gender columns.
+
+• What would you do differently if given more time?
+
+If given more time, I would try to explore more and understand how transforming categorical values into numerical values work, due to the lack of time, I had to rush that aspect and I was also getting multiple errors that I need to avoid next time I use One Hot encoding.
+
+
+• How can we improve dataset documentation for others?
+
+For others, we can use a README file to allow others understand what the dataset is about and how missing values are handled and what have we uncover so far from it.
